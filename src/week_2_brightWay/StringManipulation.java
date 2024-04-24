@@ -1,4 +1,4 @@
-package Week_2_BrightWay;
+package week_2_brightWay;
 public class StringManipulation {
     public static void main(String[] args) {
         // Create a String variable and assign the text

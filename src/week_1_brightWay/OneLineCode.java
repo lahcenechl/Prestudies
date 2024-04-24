@@ -1,4 +1,4 @@
-package Week_1_BrightWay;
+package week_1_brightWay;
 
 public class OneLineCode {
     public static void main(String[] args) {

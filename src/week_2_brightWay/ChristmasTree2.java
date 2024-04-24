@@ -1,10 +1,10 @@
 
-package Week_1_BrightWay;
+package week_2_brightWay;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ChristmasTree {
+public class ChristmasTree2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean validInput = false;

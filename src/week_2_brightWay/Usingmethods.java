@@ -1,4 +1,4 @@
-package Week_2_BrightWay;
+package week_2_brightWay;
 
 
 public class Usingmethods{

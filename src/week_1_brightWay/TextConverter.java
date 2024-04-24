@@ -1,4 +1,4 @@
-package Week_1_BrightWay;
+package week_1_brightWay;
 
 public class TextConverter {
     public static void main(String[] args) {
@@ -24,9 +24,10 @@ public class TextConverter {
                 result.append(word);
             }
             result.append(" "); // Add space between words
+
         }
         
-        // Print the result
-        System.out.println(result.toString().trim());
+        // Print the result and delete # _
+        System.out.println(result.toString().replaceAll("#", "").replaceAll("_", ""));
     }
 }
