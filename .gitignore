@@ -27,4 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/src/brightway_week_3/
+
+# Allow tracking of src/brightway_week_3/
+!/src/brightway_week_3/
