@@ -7,13 +7,12 @@ public class Student extends Person {
     public Student(String joke) {
         this.joke = joke;
     }
-
+    // Constructor
     public Student(String name,int age,String adress){
+        // Calling the setters from parent class (Person) with super keyword
         super.setAge(age);
         super.setName(name);
         super.setAdress(adress);
-
-
 
     }
 

@@ -2,6 +2,7 @@ package brightway_week_3.computer_shop;
 
 public class ComputerTest {
     public static void main(String[] args) {
+        // creating shop Object
         ComputerShop shop = new ComputerShop();
 
         // Creating 5 example computer objects with purchase and selling prices
@@ -18,13 +19,13 @@ public class ComputerTest {
         System.out.println(" Double size Ram of computer 1: "+computer1.doubleValueOfRam());
 
         // Adding computers to the shop
-        shop.addComputer(computer1);
+        shop.addComputer(computer1); // pouplate ArrayList which is reference Type
         shop.addComputer(computer2);
         shop.addComputer(computer3);
         shop.addComputer(computer4);
         shop.addComputer(computer5);
 
         // Calculating and printing the potential profit of the shop
-        System.out.println("Potential profit of the shop: $" + shop.calculateProfit());
+        System.out.println("Potential profit of the shop: $" + shop.calculateProfit()); // calculate computer price after populating the ArrayList
     }
 }

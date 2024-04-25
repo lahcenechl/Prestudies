@@ -1,5 +1,6 @@
 package brightway_week_3.computer_shop;
 
+// Create computer class
 class Computer {
     private String manufacturerName;
     private int processorSpeedMHz;
