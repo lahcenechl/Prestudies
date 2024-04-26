@@ -8,7 +8,6 @@ public class StudentTest {
         max.setName("Max");
         max.setAge(17);
         max.setAdress("Wall street 22");
-        max.tellJoke();
         max.introduce();
     }
 }

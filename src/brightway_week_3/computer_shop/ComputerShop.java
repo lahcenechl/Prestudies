@@ -6,7 +6,7 @@ import java.util.ArrayList;
 class ComputerShop {
     private ArrayList<Computer> computers = new ArrayList<>(); // creating ArrayListe to populate with computer values
 
-    // this Method will be used in ComputerShop in ComputerTest to add created Computers
+    // this Method in ComputerShop will be used ComputerTest to add created Computers
     public void addComputer(Computer computer) {
         computers.add(computer);
     }

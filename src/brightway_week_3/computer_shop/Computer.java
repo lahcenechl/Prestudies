@@ -128,7 +128,7 @@ class Computer {
 
     // Method to manipulate double value of the Ram
     public int doubleValueOfRam(){
-        if(ramSizeGB > 0){
+        if(ramSizeGB < 0){
             System.out.println(" The client didn't buy any Ram");
         }
         return getRamSizeGB()*2;

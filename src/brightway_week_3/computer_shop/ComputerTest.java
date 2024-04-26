@@ -4,7 +4,6 @@ public class ComputerTest {
     public static void main(String[] args) {
         // creating shop Object
         ComputerShop shop = new ComputerShop();
-
         // Creating 5 example computer objects with purchase and selling prices
         Computer computer1 = new Computer("Dell", 15.5, true,500,750);
         Computer computer2 = new Computer("Acer", 17.0, false,800,1000);

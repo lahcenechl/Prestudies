@@ -33,6 +33,7 @@ public class Student extends Person {
     @Override
     public void introduce() {
         super.introduce(); // Call introduce method of superclass (Person)
+        tellJoke();
     }
 
 
